@@ -15,21 +15,23 @@ body {
 
 .time-current {
     color: rgb(105, 105, 105);
-    font-size: 4rem;
-    margin-top: 35vw;
+    font-size: 2rem;
+    margin-top: 25vw;
 }
 
 p {
+    width: 100vw;
+    text-align: center;
     margin-top: 10vw;
     color: rgb(156, 156, 156);
-    font-size: 4rem;
+    font-size: 2rem;
     font-weight: 600;
 }
 
 input {
     width: 50vw;
     height: 10vw;
-    font-size: 3rem;
+    font-size: 1.5rem;
     padding-left: 2vw;
     margin-top: 2.5vw;
     background-color: #1b1b1b;
@@ -41,11 +43,13 @@ button {
     margin-top: 10vw;
     background-color: rgb(253, 49, 93);
     color: #202124;
-    width: 40vw;
-    height: 10vw;
-    font-size: 4rem;
+    width: 50vw;
+    height: 15vw;
+    font-size: 1.25rem;
     text-transform: uppercase;
     font-weight: 800;
+    outline: none;
+    border: none;
 }
 button:focus {
     outline: none;
@@ -59,5 +63,5 @@ button:active {
     margin-top: 2.5vw;
     color: rgb(0, 209, 0);
     font-weight: 600;
-    font-size: 6rem;
+    font-size: 3rem;
 }
