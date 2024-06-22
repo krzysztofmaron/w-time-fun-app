@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #202124;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.time-current {
+    color: rgb(105, 105, 105);
+    font-family: Poppins;
+    font-size: 4rem;
+    margin-top: 35vw;
+}
+
+p {
+    margin-top: 10vw;
+    color: rgb(156, 156, 156);
+    font-family: Poppins;
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+input {
+    width: 50vw;
+    height: 10vw;
+    font-size: 3rem;
+    padding-left: 2vw;
+    margin-top: 2.5vw;
+    background-color: #1b1b1b;
+    border: 1px solid rgb(78, 78, 78);
+    color: gray;
+}
+
+button {
+    margin-top: 10vw;
+    background-color: rgb(253, 49, 93);
+    color: #202124;
+    width: 40vw;
+    height: 10vw;
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: Poppins;
+}
+button:focus {
+    outline: none;
+    border: none;
+}
+button:active {
+    background-color: rgb(206, 43, 78);
+}
+
+.money-display {
+    margin-top: 2.5vw;
+    color: rgb(0, 209, 0);
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 6rem;
+}
